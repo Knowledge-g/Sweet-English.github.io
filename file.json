@@ -1,0 +1,47 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "كورس الشهر الاول",
+      "image_url": "https://via.placeholder.com/600x400?text=Course+Image",
+      "chapters": [
+        {
+          "id": 1,
+          "name": "الفصل الأول",
+          "image_url": "https://via.placeholder.com/600x400?text=Chapter+Image",
+          "lessons": [
+            {
+              "id": 1,
+              "name": "الدرس الأول",
+              "image_url": "https://via.placeholder.com/600x400?text=Lesson+Image",
+              "videos": [
+                {
+                  "id": 1,
+                  "title": "فيديو شرح الدرس",
+                  "stream_url": "https://example.com/videos/lesson1-video1.m3u8"
+                },
+                {
+                  "id": 2,
+                  "title": "حل تدريبات",
+                  "stream_url": "https://example.com/videos/lesson1-video2.m3u8"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "الدرس الثاني",
+              "image_url": "https://via.placeholder.com/600x400?text=Lesson+Image",
+              "videos": [
+                {
+                  "id": 3,
+                  "title": "شرح الدرس الثاني",
+                  "stream_url": "https://example.com/videos/lesson2-video1.m3u8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
